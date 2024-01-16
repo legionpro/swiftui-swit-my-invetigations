@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5BF3470D-2A2C-4F3F-AAEB-D6DB441A7C28"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38CDDFFA-7324-4D37-A213-95DC406EEA9D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tryAlltest/ThirdView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "gettoken()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "38CDDFFA-7324-4D37-A213-95DC406EEA9D - 5dd8ff421a4f8d00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (tryAlltest.ULRSessionTest1.User) -&gt; () in closure #2 (Swift.Array&lt;tryAlltest.ULRSessionTest1.User&gt;) -&gt; () in tryAlltest.ULRSessionTest1.gettoken() -&gt; ()"
+                  moduleName = "tryAlltest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olehporemskyy/Desktop/MY%20TESTS%20SWIFTUI/tryAlltest/tryAlltest/ThirdView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "38CDDFFA-7324-4D37-A213-95DC406EEA9D - 5dd8ff421a4f8d00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (tryAlltest.ULRSessionTest1.User) -&gt; () in closure #2 (Swift.Array&lt;tryAlltest.ULRSessionTest1.User&gt;) -&gt; () in tryAlltest.ULRSessionTest1.gettoken() -&gt; ()"
+                  moduleName = "tryAlltest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olehporemskyy/Desktop/MY%20TESTS%20SWIFTUI/tryAlltest/tryAlltest/ThirdView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
+                  offsetFromSymbolStart = "97">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C5365E2-5D9F-4BD5-A928-3AFD1029E1B0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tryAlltest/ThirdView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "gettoken()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8C5365E2-5D9F-4BD5-A928-3AFD1029E1B0 - d75df933f2accd9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in tryAlltest.ULRSessionTest1.gettoken() -&gt; ()"
+                  moduleName = "tryAlltest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olehporemskyy/Desktop/MY%20TESTS%20SWIFTUI/tryAlltest/tryAlltest/ThirdView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "8C5365E2-5D9F-4BD5-A928-3AFD1029E1B0 - d75df933f2accd9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in tryAlltest.ULRSessionTest1.gettoken() -&gt; ()"
+                  moduleName = "tryAlltest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olehporemskyy/Desktop/MY%20TESTS%20SWIFTUI/tryAlltest/tryAlltest/ThirdView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "248">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78148714-293E-44D8-82E5-D690413B5963"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tryAlltest/ThirdView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "gettoken()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "78148714-293E-44D8-82E5-D690413B5963 - d75df933f2accd79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in tryAlltest.ULRSessionTest1.gettoken() -&gt; ()"
+                  moduleName = "tryAlltest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olehporemskyy/Desktop/MY%20TESTS%20SWIFTUI/tryAlltest/tryAlltest/ThirdView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "644">
+               </Location>
+               <Location
+                  uuid = "78148714-293E-44D8-82E5-D690413B5963 - c64ecb44a3eb73b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;tryAlltest.ULRSessionTest1.User&gt;) -&gt; () in tryAlltest.ULRSessionTest1.gettoken() -&gt; ()"
+                  moduleName = "tryAlltest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olehporemskyy/Desktop/MY%20TESTS%20SWIFTUI/tryAlltest/tryAlltest/ThirdView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "204"
+                  endingLineNumber = "204"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "78148714-293E-44D8-82E5-D690413B5963 - d75df933f2accd5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in tryAlltest.ULRSessionTest1.gettoken() -&gt; ()"
+                  moduleName = "tryAlltest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olehporemskyy/Desktop/MY%20TESTS%20SWIFTUI/tryAlltest/tryAlltest/ThirdView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "410">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
