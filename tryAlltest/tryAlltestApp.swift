@@ -148,6 +148,7 @@ enum Route: String, Hashable {
     case search = "Search"
     case examples = "Examples"
     case actorsclass = "Actors and Class"
+    case getasync = "Async Proprty via get async"
 }
 
 class Coordinator: ObservableObject {

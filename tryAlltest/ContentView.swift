@@ -82,7 +82,8 @@ struct ContentView: View {
                         HStack{
                             Button("Examples", action: {coordinator.route.append(.examples)})
                             Button("Actors", action: {coordinator.route.append(.actorsclass)})
-                                
+                            Button("getasync", action: {coordinator.route.append(.getasync)})
+                            
 
                         }
                     }.buttonStyle(.bordered)
@@ -113,6 +114,8 @@ struct ContentView: View {
                         ExamplesView()
                     case .actorsclass:
                         ActorsClassExampl()
+                    case .getasync:
+                        GetAsyncView()
                     }
                     
                 }
