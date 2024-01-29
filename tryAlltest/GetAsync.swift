@@ -37,7 +37,8 @@ struct GetAsyncView: View {
     @State private var messages: [MessageC] = []
 
     var body: some View {
-        NavigationView {
+        VStack {
+            Button(action: { Task { try! await printUsers() } }, label: {Text("for await")})
             List(messages) { message in
                 VStack(alignment: .leading) {
                     Text(message.user)
@@ -62,6 +63,24 @@ struct GetAsyncView: View {
             } catch {
                 print("Message update failed.")
             }
+        }
+    }
+    
+    func printUsers() async throws {
+        
+        let url = URL(string: "https://hws.dev/users.csv")!
+
+        //.lines does AsyncSequinceProtocol
+        for try await line in url.lines {
+            let parts = line.split(separator: ",")
+            guard parts.count == 4 else { continue }
+
+            guard let id = Int(parts[0]) else { continue }
+            let firstName = parts[1]
+            let lastName = parts[2]
+            let country = parts[3]
+
+            print("Found user #\(id): \(firstName) \(lastName) from \(country)")
         }
     }
 }

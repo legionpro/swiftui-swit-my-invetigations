@@ -61,11 +61,21 @@ class Temp {
 //----------------------
 
 
+
+@globalActor 
+actor ImageDatabase {
+  static let shared = ImageDatabase()
+
+}
+
 @globalActor
 public struct TopName{
     public actor MyAct {}
     public static let shared = MyAct()
 }
+
+
+
 
 @TopName
 struct ForGActorStruct {

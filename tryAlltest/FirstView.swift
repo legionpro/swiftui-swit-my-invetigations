@@ -66,6 +66,7 @@ struct FirstView: View {
     @Environment(\.dismiss) var dismiss
     @ObservedObject private var model = FirstViewModel()
     @EnvironmentObject var coordinator: Coordinator
+    @State private var data = ""
     
     var body: some View {
         VStack{
@@ -81,6 +82,7 @@ struct FirstView: View {
                         .disabled(!model.validationFlag)
                     Spacer()
                 }
+                Text("observe .task cancelation on disapearing in log")
             }
                 Divider()
                 Section("more navigation") {
@@ -107,5 +109,49 @@ struct FirstView: View {
                 )
             }
         }
+        /// two examples of task with cancelation on disappearing -
+        .task {
+            //Task { - it is main task and it is canceled but subtassk is not? so "Task {" is non needed
+                do {
+                    for _ in 1...100000 {
+                        try await Task.sleep(for: .seconds(0.1))
+                        //await Task.sleep(5_000_000_000) // Sleep for 2 seconds
+                        try Task.checkCancellation()
+                        data = "Data loaded"
+                    }
+                } catch {
+                    print("Error: \(error)")
+                }
+            //}
+        }
+        .task(id:"1") {
+            //Task {  - this is turns off cancelation
+                await onapp()
+            //}
+        }
+    }
+    
+    
+    func onapp() async {
+        do {
+            defer { print("defer printing")}
+            var counter = 0
+            //for item in 1...10 {
+                counter += 1
+                try await Task.sleep(for: .seconds(10))
+                await Task.yield()
+                try Task.checkCancellation()
+                if Task.isCancelled {
+                    print("canceled")
+                } else {
+
+                   
+                }
+            //}
+        }
+        catch {
+            print("catch----")
+        }
+            
     }
 }
