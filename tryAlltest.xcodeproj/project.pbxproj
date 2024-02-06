@@ -31,6 +31,7 @@
 		9F9A77562B0638B100052839 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A77552B0638B100052839 /* SearchView.swift */; };
 		9FBE33202AF0FD1C006B42F6 /* RectIntersect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE331F2AF0FD1C006B42F6 /* RectIntersect.swift */; };
 		9FBE333C2AF296A8006B42F6 /* ChessBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE333B2AF296A8006B42F6 /* ChessBoard.swift */; };
+		9FF1D2E82B7244BA00985648 /* CarrouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF1D2E72B7244BA00985648 /* CarrouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		9F9A77552B0638B100052839 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		9FBE331F2AF0FD1C006B42F6 /* RectIntersect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectIntersect.swift; sourceTree = "<group>"; };
 		9FBE333B2AF296A8006B42F6 /* ChessBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoard.swift; sourceTree = "<group>"; };
+		9FF1D2E72B7244BA00985648 /* CarrouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				9F9A77552B0638B100052839 /* SearchView.swift */,
 				9F8CCE992B56D2E1009B0C09 /* ActorsClassExampl.swift */,
 				9F8CCE9B2B57FFA0009B0C09 /* GetAsync.swift */,
+				9FF1D2E72B7244BA00985648 /* CarrouselView.swift */,
 			);
 			path = tryAlltest;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				9F3A66482ADEB76A00CB8ABE /* ErrorProcessing.swift in Sources */,
 				9F8CCE982B4EE183009B0C09 /* ExamplesView.swift in Sources */,
 				9F2D59BF2AD448D400DC912B /* ThirdView.swift in Sources */,
+				9FF1D2E82B7244BA00985648 /* CarrouselView.swift in Sources */,
 				9F2D59BB2AD448B400DC912B /* FirstView.swift in Sources */,
 				9F2D59BD2AD448C200DC912B /* SecondView.swift in Sources */,
 				9F2D59AD2AD442FB00DC912B /* tryAlltestApp.swift in Sources */,
